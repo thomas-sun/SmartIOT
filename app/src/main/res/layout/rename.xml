@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rename_dlg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2sp"
+    android:orientation="horizontal">
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="按鍵名稱" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+
+</LinearLayout>

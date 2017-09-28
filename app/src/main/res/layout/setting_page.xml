@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.ironthomas.smartiot.MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:id="@+id/txt_ssid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="WIFI基地台名稱" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="WIFI基地台密碼" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:id="@+id/edit_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="裝置名稱" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:id="@+id/edit_server_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="服務器位址" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <Switch
+            android:id="@+id/sw_ssh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用SSH加密"
+            android:checked="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="裝置配對"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_upgrade_firmware"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="韌體更新"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_scan"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="掃描分享碼"
+            android:textSize="30sp" />
+
+        <Switch
+            android:id="@+id/sw_safety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="防止誤觸"
+            android:checked="true"
+            android:textSize="30sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

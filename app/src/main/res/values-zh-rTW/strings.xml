@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">智慧物聯網</string>
+    <string name="about">關於</string>
+
+    <string name="channel">通道:</string>
+    <string name="server_ip">服務器位址</string>
+    <string name="server_ip_empty">服務器位址不能為空</string>
+    <string name="accept">套用</string>
+    <string name="other_source">自訂影像源</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="hikvision_nvr">海康NVR</string>
+    <string name="other_nvr">自訂</string>
+    <string name="error_format">不正確的格式</string>
+    <string name="device_has_been_added">裝置建立成功</string>
+
+    <string name="delete">刪除</string>
+    <string name="delete_device">刪除裝置</string>
+    <string name="confirm_delete">確定要刪除?</string>
+    <string name="yes">是</string>
+    <string name="cancel">取消</string>
+    <string name="share">分享</string>
+
+    <string name="firmware_load_fail">韌體讀取失敗</string>
+
+
+    <string name="check_firmware_version">檢查韌體版本 .... 成功</string>
+    <string name="check_firmware">檢查韌體</string>
+    <string name="device_download_firmware">裝置端開始傳下載韌體</string>
+    <string name="check_firmware_package">裝置已連線，檢查更新包</string>
+    <string name="download_complete">裝置端韌體下載完畢</string>
+    <string name="unrecognized_command">無法識別的更新指令</string>
+
+    <string name="pairing_success">裝置配對成功</string>
+    <string name="pairing_failed">裝置配對失敗</string>
+
+
+    <string name="upgrade_success">更新成功</string>
+    <string name="upgrade_failed">更新失敗</string>
+
+    <string name="handshake">裝置已連線，開始交握</string>
+    <string name="scan_failed">裝置掃描失敗</string>
+    <string name="scanning">裝置掃描中</string>
+    <string name="wait">請稍待</string>
+    <string name="modify_device_name">修改裝置名稱</string>
+    <string name="type_number">請輸入1234</string>
+
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="lock">鎖</string>
+    <string name="stop">停/解鎖</string>
+
+</resources>

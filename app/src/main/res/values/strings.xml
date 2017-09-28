@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SmartIOT</string>
+    <string name="about">About</string>
+
+    <string name="channel">CH:</string>
+    <string name="server_ip">Server ip</string>
+    <string name="server_ip_empty">Server ip can not empty</string>
+    <string name="accept">Accept</string>
+    <string name="other_source">Other source</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="hikvision_nvr">Hikvision nvr</string>
+    <string name="other_nvr">Other</string>
+    <string name="error_format">Error format</string>
+    <string name="device_has_been_added">device has been added</string>
+
+
+
+    <string name="delete">Delete</string>
+    <string name="delete_device">Delete device</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="yes">yes</string>
+    <string name="cancel">cancel</string>
+    <string name="share">Share</string>
+
+    <string name="firmware_load_fail">Firmeware load failed </string>
+
+
+    <string name="check_firmware_version">Check firmeware version .... ok</string>
+    <string name="check_firmware">Check firmeware</string>
+    <string name="device_download_firmware">Device is downloading the firmware</string>
+    <string name="check_firmware_package">Check firmware package</string>
+    <string name="download_complete">Download complete</string>
+    <string name="unrecognized_command">Unrecognized command</string>
+
+
+    <string name="pairing_success">Pairing success</string>
+    <string name="pairing_failed">Pairing failed</string>
+
+
+    <string name="upgrade_success">Upgrade success</string>
+    <string name="upgrade_fail">Upgrade fail</string>
+
+    <string name="handshake">Handshaking</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="scanning">Scanning</string>
+    <string name="wait">Please wait one moment.</string>
+    <string name="modify_device_name">Modify the device name</string>
+    <string name="type_number">Please type 1234</string>
+
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="lock">Lock</string>
+    <string name="stop">Stop/Unlock</string>
+
+
+</resources>
